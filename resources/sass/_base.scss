@@ -1,0 +1,24 @@
+body {
+    box-sizing: border-box;
+}
+
+.main-chat {
+    padding: 0 5rem;
+
+    @media (max-width: 800px) {
+        padding: 0 1rem;
+    }
+}
+
+.chat-image {
+    width: 200px;
+    @media (max-width: 600px) {
+        width: 150px;
+    }
+}
+
+@media (max-width: 800px) {
+    .sidebar {
+        display: none;
+    }
+}
